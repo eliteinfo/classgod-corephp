@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Class God</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/expand.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+$("ul.menu li:has(ul)").addClass("parent");
+$(".menu_link").click(function(){
+$(this).next("ul").slideToggle(400);
+return false;
+});
+$(".menu_link").toggle(function(){
+$(this).addClass("active");
+}, function () {
+$(this).removeClass("active");
+});
+});
+</script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".custom-select").each(function(){
+            $(this).wrap("<span class='select-wrapper'></span>");
+            $(this).after("<span class='holder'></span>");
+        });
+        $(".custom-select").change(function(){
+            var selectedOption = $(this).find(":selected").text();
+            $(this).next(".holder").text(selectedOption);
+        }).trigger('change');
+    })
+</script>
+    <script>
+         $(document).ready(function () {
+        $("#accordion div.expand_title").toggler();
+        });
+    </script>
+    </head>
+    <body>
+<!----Top Start---->
+<div class="top"> 
+      <!--Rop Nav start-->
+      <div class="top_nav">
+    <div class="wrapper">
+          <div class="mainmenu"> <a class="menu_link" href="#">Menu</a>
+        <ul class="menu" id="menu">
+              <li><a href="#">Post an assignment</a></li>
+              <li><a href="#">Find a Tutor</a>
+              	<ul>
+              <li><a href="#">Sub Menu1</a></li>
+              <li><a href="#">Sub Menu1</a></li>
+            </ul>
+              </li>
+              <li><a href="#">Find an assignment</a></li>
+              <li class="active"><a href="#">How it Works</a></li>
+            </ul>
+        <script type ="text/javascript">
+			var menu=new menu.dd("menu");
+			menu.init("menu","menuhover");
+			</script> 
+      </div>
+          <div class="top_login">
+        <ul>
+              <li><a href="#">login</a></li>
+              <li><a href="#">join now</a></li>
+            </ul>
+      </div>
+        </div>
+  </div>
+      <!--Top Nav end--> 
+      <!-----Top logo Start---->
+      <div class="top_bg">
+    <div class="wrapper">
+        <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+          <div class="top_right">
+        <div class="dropdown_box">
+              <select onchange="" name="Browse" class="custom-select" >
+            <option value="Browse">Browse</option>
+            <option value="Browse2">Browse1</option>
+            <option value="Browse3">Browse2</option>
+          </select>
+            </div>
+        <div class="inputgroup">
+              <div class="white_round">
+            <div class="dropdown_box2">
+                  <select onchange="" name="Tutors" class="custom-select" >
+                <option value="Tutors">Tutors</option>
+                <option value="Tutors2">Tutors1</option>
+                <option value="Tutors3">Tutors2</option>
+              </select>
+                </div>
+            <input type="search" placeholder="" >
+          </div>
+              <input type="submit" />
+            </div>
+      </div>
+        </div>
+  </div>
+      <!----Top logo End----> 
+    </div>
+<!----Top End----> 
+<!----header Start---->
+<div class="header">
+      <ul class="slides">
+    <li>
+          <div class="header_main">
+        <div class="header_img"><img src="images/about_inner.jpg" alt="" /></div>
+        <div class="header_textbox">
+              <div class="wrapper">
+            <h1>How It Works</h1>
+          </div>
+            </div>
+      </div>
+        </li>
+  </ul>
+    </div>
+<!------Header End----> 
+<!----mid Start---->
+<div class="mid">
+      <div class="wrapper"> 
+    <!----content Start---->
+    <div class="content_part">
+          <div id="accordion">
+        <div class="accordion_box">
+              <ul>
+           	 <li>
+<div class="expand_title"> <a href="#"><div class="accordion_number">1.</div><div class="accordion_name">Placing your Assignment</div></a> </div>
+                  <div class="collapse1">
+                <div class="content_icon"><img src="images/icon9.png" alt="" /></div>
+                <div class="content_right"><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></div>
+              </div>
+                </li>
+                <li>
+<div class="expand_title"> <a href="#"><div class="accordion_number">2.</div><div class="accordion_name">Bidding Process and Selecting a Tutor</div></a> </div>
+                  <div class="collapse1">
+                <div class="content_icon"><img src="images/icon9.png" alt="" /></div>
+                <div class="content_right"><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></div>
+              </div>
+                </li>
+                <li>
+<div class="expand_title"> <a href="#"><div class="accordion_number">3.</div><div class="accordion_name">Your writer will start the writing process</div></a> </div>
+                  <div class="collapse1">
+                <div class="content_icon"><img src="images/icon9.png" alt="" /></div>
+                <div class="content_right"><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></div>
+              </div>
+                </li>
+                <li>
+<div class="expand_title"> <a href="#"><div class="accordion_number">4.</div><div class="accordion_name">Your Work is Delivered to you</div></a> </div>
+                  <div class="collapse1">
+                <div class="content_icon"><img src="images/icon9.png" alt="" /></div>
+                <div class="content_right"><p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p></div>
+              </div>
+                </li>
+          </ul>
+            </div>
+      </div>
+        </div>
+    <!----content End----> 
+  </div>
+    </div>
+<!----mid End----> 
+<!----Footer Start---->
+<div class="footer_bg">
+      <div class="wrapper">
+    <div class="footer"> 
+          <!----Footer Box Start---->
+          <div class="footer_box">
+        <h3>Navigate</h3>
+        <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">Join Now</a></li>
+              <li><a href="#">Post an Assignment</a></li>
+              <li><a href="#">Find a Tutor</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Company Info</h3>
+        <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">IP Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Resources</h3>
+        <ul>
+              <li><a href="#">Help & FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Answers</a></li>
+              <li><a href="#">Ask A Question</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <div class="social_right"> <a class="tw_icon" href="#"></a><a class="fb_icon" href="#"></a> <a class="youtube_icon" href="#"></a></div>
+        <div class="copy_rights">2015 ClassGod &copy;. All rights reserved</div>
+      </div>
+        </div>
+  </div>
+    </div>
+</body>
+</html>

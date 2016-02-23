@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+<title>Class God</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("ul.menu li:has(ul)").addClass("parent");
+$(".menu_link").click(function(){
+$(this).next("ul").slideToggle(400);
+return false;
+});
+$(".menu_link").toggle(function(){
+$(this).addClass("active");
+}, function () {
+$(this).removeClass("active");
+});
+});
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".custom-select").each(function(){
+            $(this).wrap("<span class='select-wrapper'></span>");
+            $(this).after("<span class='holder'></span>");
+        });
+        $(".custom-select").change(function(){
+            var selectedOption = $(this).find(":selected").text();
+            $(this).next(".holder").text(selectedOption);
+        }).trigger('change');
+    })
+</script>
+</head>
+<body class="home">
+<!----Top Start---->
+<div class="top"> 
+  <!--Rop Nav start-->
+  <div class="top_nav">
+    <div class="wrapper">
+      <div class="mainmenu"> <a class="menu_link" href="#">Menu</a>
+        <ul class="menu" id="menu">
+          <li class="active"><a href="#">Post an assignment</a></li>
+          <li><a href="#">Find a Tutor</a>
+            <ul>
+              <li><a href="#">Sub Menu1</a></li>
+              <li><a href="#">Sub Menu1</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Find an assignment</a></li>
+          <li><a href="how_it_works.html">How it Works</a></li>
+        </ul>
+        <script type ="text/javascript">
+			var menu=new menu.dd("menu");
+			menu.init("menu","menuhover");
+			</script> 
+      </div>
+      <div class="top_login">
+        <ul>
+          <li><a href="#">login</a></li>
+          <li><a href="#">join now</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Top Nav end--> 
+  <!-----Top logo Start---->
+  <div class="top_bg">
+    <div class="wrapper">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+      <div class="top_right">
+        <div class="dropdown_box">
+          <select onchange="" name="Browse" class="custom-select" >
+            <option value="Browse">Browse</option>
+            <option value="Browse2">Browse1</option>
+            <option value="Browse3">Browse2</option>
+          </select>
+        </div>
+        <div class="inputgroup">
+          <div class="white_round">
+            <div class="dropdown_box2">
+              <select onchange="" name="Tutors" class="custom-select" >
+                <option value="Tutors">Tutors</option>
+                <option value="Tutors2">Tutors1</option>
+                <option value="Tutors3">Tutors2</option>
+              </select>
+            </div>
+            <input type="search"   placeholder="" >
+          </div>
+          <input type="submit" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----Top logo End----> 
+</div>
+<!----Top End----> 
+<!----header Start---->
+<div class="header">
+  <ul class="slides">
+    <li>
+      <div class="header_main">
+        <div class="header_img"><img src="images/header_1.jpg" alt="" /></div>
+        <div class="header_textbox">
+          <div class="wrapper">
+            <div class="header_text">
+              <h1><span>Find</span> Private <span>and</span><br />
+                Secure Homework Help</h1>
+              <h3>1+ million businesses use us for top quality talent</h3>
+              <div class="button_box"> <a href="#">Post an assignment</a> <a href="#" class="active">Find tutors</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!------Header End----> 
+<!----mid Start----> 
+<!----section info Start---->
+<div class="mid">
+  <section id="center_info">
+    <div class="wrapper">
+      <h2>Hire The Right Tutors For The Job</h2>
+      <p>Search for services being offered by tutors that match your needs. Our global network of over 1.5 million gurus are eager to help with any technical, creative or business projects you have on the table. Explore each tutors profile and browse their previous work so you can hire with confidence.</p>
+    </div>
+  </section>
+  <!----section info end----> 
+  <!--section services start-->
+  <section id="services_bg">
+    <div class="wrapper">
+      <div class="services_main">
+        <ul class="services_box">
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon3.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon4.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon5.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon6.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon7.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+          <li><a href="#">
+            <div class="arrow_left">&nbsp;</div>
+            <div class="arrow_right">&nbsp;</div>
+            <div class="services_icon"><img src="images/icon8.png" alt="" /></div>
+            <div class="services_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit.</div>
+            <div class="nextlink">Learn More <span><img src="images/next_arrow.png" alt="" /></span></div>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--section services end-->
+  <section id="clients_bg">
+    <h2>Our Happy Clients</h2>
+    <div class="wrapper">
+      <div class="clients_main">
+        <ul>
+          <li><a href="#"><img src="images/clients_1.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="images/clients_2.jpg" alt="" /></a></li>
+          <li class="active_client"><a href="#"><img src="images/clients_3.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="images/clients_4.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="images/clients_5.jpg" alt="" /></a></li>
+        </ul>
+        <div class="clients_meg">
+          <div class="meg_text"> <span class="icon_left"><span class="icon_right">The results are very encouraging, our Engagement Rates have more than Doubled.</span></span></div>
+          <h2>Josh Eboch</h2>
+          <span class="clients_email"><a href="mailto:SENATOR CORNYN @teamcornyn">SENATOR CORNYN @teamcornyn</a></span> </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!----mid End----> 
+<!----Footer Start---->
+<div class="footer_bg">
+  <div class="wrapper">
+    <div class="footer"> 
+      <!----Footer Box Start---->
+      <div class="footer_box">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Join Now</a></li>
+          <li><a href="#">Post an Assignment</a></li>
+          <li><a href="#">Find a Tutor</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">IP Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Help & FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">Ask A Question</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <div class="social_right"> <a class="tw_icon" href="#"></a><a class="fb_icon" href="#"></a> <a class="youtube_icon" href="#"></a></div>
+        <div class="copy_rights">2015 ClassGod &copy;. All rights reserved</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

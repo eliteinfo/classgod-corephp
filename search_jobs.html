@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Class God</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/expand.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+$("ul.menu li:has(ul)").addClass("parent");
+$(".menu_link").click(function(){
+$(this).next("ul").slideToggle(400);
+return false;
+});
+$(".menu_link").toggle(function(){
+$(this).addClass("active");
+}, function () {
+$(this).removeClass("active");
+});
+});
+</script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".custom-select").each(function(){
+            $(this).wrap("<span class='select-wrapper'></span>");
+            $(this).after("<span class='holder'></span>");
+        });
+        $(".custom-select").change(function(){
+            var selectedOption = $(this).find(":selected").text();
+            $(this).next(".holder").text(selectedOption);
+        }).trigger('change');
+    })
+</script>
+    <script>
+        $(document).ready(function () {
+        $("#faqs div.expand_title").toggler();
+        });
+    </script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+	$(".category_top").click(function(){
+	$(".category_box").slideToggle(400);
+	return false;
+	});
+	});
+	</script>
+    </head>
+    <body>
+<!----Top Start---->
+<div class="top"> 
+      <!--Rop Nav start-->
+      <div class="top_nav">
+    <div class="wrapper">
+          <div class="mainmenu"> <a class="menu_link" href="#">Menu</a>
+        <ul class="menu" id="menu">
+              <li><a href="#">Post an assignment</a></li>
+              <li><a href="#">Find a Tutor</a>
+              	<ul>
+              <li><a href="#">Sub Menu1</a></li>
+              <li><a href="#">Sub Menu1</a></li>
+            </ul>
+              </li>
+              <li><a href="#">Find an assignment</a></li>
+              <li><a href="#">How it Works</a></li>
+            </ul>
+        <script type ="text/javascript">
+			var menu=new menu.dd("menu");
+			menu.init("menu","menuhover");
+			</script> 
+      </div>
+          <div class="top_login">
+        <ul>
+              <li><a href="#">login</a></li>
+              <li><a href="#">join now</a></li>
+            </ul>
+      </div>
+        </div>
+  </div>
+      <!--Top Nav end--> 
+      <!-----Top logo Start---->
+      <div class="top_bg">
+    <div class="wrapper">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+          <div class="top_right">
+        <div class="dropdown_box">
+              <select onchange="" name="Browse" class="custom-select" >
+            <option value="Browse">Browse</option>
+            <option value="Browse2">Browse1</option>
+            <option value="Browse3">Browse2</option>
+          </select>
+            </div>
+        <div class="inputgroup">
+              <div class="white_round">
+            <div class="dropdown_box2">
+                  <select onchange="" name="Tutors" class="custom-select" >
+                <option value="Tutors">Tutors</option>
+                <option value="Tutors2">Tutors1</option>
+                <option value="Tutors3">Tutors2</option>
+              </select>
+                </div>
+            <input type="search" placeholder="" >
+          </div>
+              <input type="submit" />
+            </div>
+      </div>
+        </div>
+  </div>
+      <!----Top logo End----> 
+    </div>
+<!----Top End----> 
+<!----header Start---->
+<div class="header">
+      <ul class="slides">
+    <li>
+          <div class="header_main">
+        <div class="header_img"><img src="images/about_inner.jpg" alt="" /></div>
+        <div class="header_textbox">
+              <div class="wrapper">
+            <h1>Writing Jobs</h1>
+            <div class="button_box2"> <a href="#">Post an assignment</a> </div>
+          </div>
+            </div>
+      </div>
+        </li>
+  </ul>
+    </div>
+<!------Header End----> 
+<!----mid Start---->
+<div class="mid">
+      <div class="wrapper"> 
+    <!----content Start---->
+    <div class="content_part"> 
+          <!----Sidebar Start---->
+          <div class="sidebar">
+          <a class="category_top" href="#">Category</a>
+          <div class="category_box">
+        <div class="sidebar_box">
+              <h2><span>Category</span></h2>
+              <ul>
+            <li><a href="#">All Categories</a></li>
+            <li><a href="#">Web, Mobile &nbsp; Software Dev</a></li>
+            <li><a href="#">IT &nbsp; Networking</a></li>
+            <li><a href="#">Data Science &nbsp; Analytics</a></li>
+            <li><a href="#">Engineering &nbsp; Architecture</a></li>
+            <li><a href="#">Design &nbsp; Creative</a></li>
+            <li class="active"><a href="#">Writing</a></li>
+            <li><a href="#">Translation</a></li>
+            <li><a href="#">Legal</a></li>
+            <li><a href="#">Admin Support</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Sales &nbsp; Marketing</a></li>
+            <li><a href="#">Accounting &nbsp; Consulting</a></li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Date Posted</span></h2>
+              <ul>
+            <li class="active"><a href="#">Any Timeframe</a></li>
+            <li><a href="#">Last 24 Hours</a></li>
+            <li><a href="#">Last 3 Days</a></li>
+            <li><a href="#">Last 7 Days</a></li>
+            <li><a href="#">Last 14 Days</a></li>
+            <li><a href="#">Last 30 Days</a></li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Rating</span></h2>
+              <ul>
+            <li class="active"><a href="#">Any Rating</a></li>
+            <li><a href="#">5 Stars</a></li>
+            <li><a href="#">At least 4.5 Stars</a></li>
+            <li><a href="#">At least 4 Stars</a></li>
+            <li><a href="#">Last 14 Days</a></li>
+            <li><a href="#">No Feedback</a></li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Job Type</span></h2>
+              <ul>
+            <li class="active"><a href="#">All Types</a></li>
+            <li><a href="#">Hourly</a></li>
+            <li><a href="#">Fixed Price</a></li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Job Status</span></h2>
+              <ul>
+            <li><a href="#">Any</a></li>
+            <li class="active"><a href="#">Open Jobs</a></li>
+            <li><a href="#">Jobs in Progress</a></li>
+            <li><a href="#">Completed Jobs</a></li>
+          </ul>
+            </div>
+            </div>
+      </div>
+          <!----Sidebar end---->
+          <div class="blog_part">
+        <div class="blog_found"><span>47,320</span>were found based on your criteria</div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">Ghost Writers Required</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li class="active"><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">Ghost Writers Required</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">CV Writer Needed</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">Web Content Writer</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">Ghost Writers Required</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li class="active"><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">Ghost Writers Required</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <div class="blog_box">
+              <div class="blog_fullbox">
+            <div class="blog_titel">
+                  <h2><a href="#">CV Writer Needed</a></h2>
+                </div>
+            <div class="blog_price">
+                  <ul>
+                <li><a href="#">Fixed Price</a></li>
+                <li><a href="#">Est. Budget</a></li>
+                <li>$<a href="#"><span class="money">15</span></a></li>
+              </ul>
+                  <span class="blog_time">Posted 4 hrs ago</span> </div>
+          </div>
+              <div class="blog_tag"><a href="#">Article Writing</a><a href="#">Content Writing</a> <a href="#">hostwriting</a></div>
+              <div class="blog_text">
+            <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am launching a drop shipping website called Search and List. My aim is to educate and excite people about the possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+          </div>
+            </div>
+        <!----navigation Start---->
+        <div class="navigation">
+              <ul>
+            <li><a href="#">First</a></li>
+            <li class="current_selected_page"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">Last</a></li>
+          </ul>
+            </div>
+        <!----navigation End----> 
+      </div>
+        </div>
+    <!----content End----> 
+  </div>
+    </div>
+<!----mid End----> 
+<!----Footer Start---->
+<div class="footer_bg">
+      <div class="wrapper">
+    <div class="footer"> 
+          <!----Footer Box Start---->
+          <div class="footer_box">
+        <h3>Navigate</h3>
+        <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">Join Now</a></li>
+              <li><a href="#">Post an Assignment</a></li>
+              <li><a href="#">Find a Tutor</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Company Info</h3>
+        <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">IP Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Resources</h3>
+        <ul>
+              <li><a href="#">Help & FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Answers</a></li>
+              <li><a href="#">Ask A Question</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <div class="social_right"> <a class="tw_icon" href="#"></a><a class="fb_icon" href="#"></a> <a class="youtube_icon" href="#"></a></div>
+        <div class="copy_rights">2015 ClassGod &copy;. All rights reserved</div>
+      </div>
+        </div>
+  </div>
+    </div>
+</body>
+</html>

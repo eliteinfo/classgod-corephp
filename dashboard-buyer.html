@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Class God</title>
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/expand.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+$("ul.menu li:has(ul)").addClass("parent");
+$(".menu_link").click(function(){
+$(this).next("ul").slideToggle(400);
+return false;
+});
+$(".menu_link").toggle(function(){
+$(this).addClass("active");
+}, function () {
+$(this).removeClass("active");
+});
+});
+</script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".custom-select").each(function(){
+            $(this).wrap("<span class='select-wrapper'></span>");
+            $(this).after("<span class='holder'></span>");
+        });
+        $(".custom-select").change(function(){
+            var selectedOption = $(this).find(":selected").text();
+            $(this).next(".holder").text(selectedOption);
+        }).trigger('change');
+    })
+</script>
+    <script>
+        $(document).ready(function () {
+        $("#faqs div.expand_title").toggler();
+        });
+    </script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+	$(".category_top").click(function(){
+	$(".category_box").slideToggle(400);
+	return false;
+	});
+	});
+	</script>
+    </head>
+
+    <body>
+
+     
+        <!----Top Start---->
+        <div class="top"> 
+  <!--Rop Nav start-->
+  <div class="top_nav">
+    <div class="wrapper">
+    <div class="register">
+                	<a href="messages.html" class="tot-noti">2</a>
+                	<a href="edit-profile.html" class="reg-link">
+                    	<div class="prof_img_small"><img src="images/people_2.jpg" alt="" /></div>
+                    </a>
+                    <ul>
+                    	<li><a href="mydashboard.html">My DashBoard</a></li>
+                    	<li><a href="myprofile.html">Edit Profile</a></li>
+                    	<li><a href="notifications.html">Messages (2)</a></li>
+                    	<li><a href="index.html">Logout</a></li>
+                    </ul>
+                </div>
+    <div class="top_login">
+       
+             <ul>
+               <li><a href="dashboard.html">My Account</a></li>
+             <li><a href="index.html">Logout</a></li>
+        </ul>
+</div>
+      <div class="mainmenu"> <a class="menu_link" href="#">Menu</a>
+        <ul class="menu" id="menu">
+          <li><a href="add_job.html">Post an assignment</a></li>
+          <li><a href="search_tutors.html">Find a Tutor</a></li>
+          <li><a href="search_jobs.html">Find an assignment</a></li>
+          <li><a href="how_it_works.html">How it Works</a></li>
+        </ul>
+        <script type="text/javascript">
+            var menu=new menu.dd("menu");
+            menu.init("menu","menuhover");
+        </script> 
+      </div>
+      
+    </div>
+  </div>
+  <!--Top Nav end--> 
+  <!-----Top logo Start---->
+   <div class="top_bg">
+    <div class="wrapper">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+      
+      <div class="top_right">
+          <form action="" method="POST">
+                <div class="dropdown_box">
+                  <span class="select-wrapper"><select onchange="" name="cmbSearchcat" class="custom-select">
+                  <option value="">Browse</option>
+                                      <option value="1">Mathematics</option>
+                                        <option value="2">Arts &amp; Sciences</option>
+                                        <option value="3">Business</option>
+                                        <option value="4">Engineering</option>
+                                      </select><span class="holder">Browse</span></span>
+                </div>
+                <div class="inputgroup">
+                  <div class="white_round">
+                    <div class="dropdown_box2">
+                      <span class="select-wrapper"><select name="cmbSearchText" class="custom-select">
+                        <option value="">Select</option>
+                        <option value="1">Jobs</option>
+                        <option value="2">Tutor</option>
+                      </select><span class="holder">Select</span></span>
+                    </div>
+                      <input kl_virtual_keyboard_secure_input="on" name="txtSearchkeyword" value="" placeholder="Enter keyword" type="search">
+                  </div>
+                    <input name="btnGeSearch" value="Search" type="submit">
+                </div>
+          </form>
+      </div>
+      
+    </div>
+  </div>
+  <!----Top logo End----> 
+</div>        <!----Top End----> 
+       <!----header Start---->
+<div class="header">
+  <ul class="slides">
+    <li>
+      <div class="header_main">
+        <div class="header_img"><img src="images/about_inner.jpg" alt=""></div>
+        <div class="header_textbox">
+          <div class="wrapper">
+            <h1>My Account</h1>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!------Header End----> 
+<!----mid Start---->
+<div class="mid">
+<div class="wrapper"> 
+<!----content Start---->
+<div class="content_part">
+  <!----Sidebar Start---->
+  <div class="sidebar"> <a href="#" class="category_top">Category</a>
+    <div class="category_box">
+      <div class="sidebar_box">
+      <div class="tutpic"><img src="images/people_2.jpg" alt="" />
+       <h3>BuyerM.</h3></div>
+       <ul>
+       		<li class="active"><a href="dashboard.html">Overview</a></li>
+       		<li><a href="job-history.html">Assignment History</a></li>
+       		<li><a href="edit-profile.html">Edit Profile</a></li>
+            <li><a href="messages.html">Messages (3)</a></li>
+       </ul>
+      </div>
+    </div>
+  </div>
+  <!----Sidebar end---->
+  <div class="blog_part">
+    <h2><span>Your Assignments</span></h2>
+      <div class="blog_fullbox blog_fullbox_sml">
+
+<div class="blog_text_sml">
+                <h3><a href="#">Ghost Writers Required</a></h3>
+        <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+      </div>
+       
+        <div class="blog_price blog_price_sml">
+          <ul>
+            <li class="active">Project Budget</li>
+            <li>$<span class="money">15</span></li>
+          </ul>
+          <span class="blog_time">Posted: 02/04/2015</span> <br />
+           <span style="float:right"><a href="viewbidders.html">View Bidders (3)</a></span>
+          </div>
+       
+      </div>
+      
+    
+      <div class="blog_fullbox blog_fullbox_sml">
+
+<div class="blog_text_sml">
+                <h3><a href="#">Ghost Writers Required</a></h3>
+        <p>I need 4 Articles for my new Website. I will be hiring 4 writers the best writers will be hired for more content. I am possibilities of doing drop shipping. Articles will be: 1. What is Drop Shipping? 2. Benefits of selling on eBay 3. Spend more time doing what you love 4. Becoming your own Boss I pay $5 per ...</p>
+      </div>
+       
+        <div class="blog_price blog_price_sml">
+          <ul>
+            <li class="active">Project Budget</li>
+            <li>$<span class="money">15</span></li>
+          </ul>
+          <span class="blog_time">Posted: 02/04/2015</span><br />
+                     <span style="float:right"><a href="viewbidders.html">View Bidders (2)</a></span>
+
+          </div>
+      </div>
+     
+     <br class="clear" /><br />
+      
+    
+       
+    
+    
+</div>
+<div class="regacc_row" align="center"></div>
+</div>
+    <!----content End----> 
+  </div>
+
+<!----mid End----> 
+<!----Footer Start---->
+        <div class="footer_bg">
+  <div class="wrapper">
+    <div class="footer"> 
+      <!----Footer Box Start---->
+      <div class="footer_box">
+        <h3>Navigate</h3>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/login.php">Sign In</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/register_select.php">Join Now</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/addjob.php">Post an Assignment</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/searchtutor.php">Find a Tutor</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <h3>Company Info</h3>
+        <ul>
+          <li><a href="http://54.72.90.40/ClassGod/about_us.php">About Us</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/how_it_works.php">How it Works</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/directory.php">Directory</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/ippolicy.php">IP Policy</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/privacy.php">Privacy Policy</a></li>
+          <li><a href="http://54.72.90.40/ClassGod/terms.php">Terms of Service</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Help &amp; FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Answers</a></li>
+          <li><a href="#">Ask A Question</a></li>
+        </ul>
+      </div>
+      <div class="footer_box">
+        <div class="social_right">
+                        <a class="tw_icon" target="_blank" href="http://twitter.com/ClassGod"></a>
+            <a class="fb_icon" target="_blank" href="https://www.facebook.com/ClassGod"></a>
+            <a class="youtube_icon" target="_blank" href="https://www.youtube.com/"></a></div>
+          <div class="copy_rights">2015 ClassGod &copy;. All rights reserved</div>
+      </div>
+    </div>
+  </div>
+</div>    
+    </body>
+</html>

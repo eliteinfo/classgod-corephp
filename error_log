@@ -1,0 +1,203 @@
+[23-Apr-2015 06:40:45 UTC] PHP Warning:  include(lib/myclass.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/demoserv/public_html/ClassGod/ajax.php on line 3
+[23-Apr-2015 06:40:45 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'lib/myclass.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/demoserv/public_html/ClassGod/ajax.php on line 3
+[23-Apr-2015 06:40:45 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/ajax.php on line 11
+[23-Apr-2015 08:00:37 UTC] PHP Warning:  include(include/module.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/demoserv/public_html/ClassGod/confirm.php on line 2
+[23-Apr-2015 08:00:37 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'include/module.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/demoserv/public_html/ClassGod/confirm.php on line 2
+[23-Apr-2015 08:00:37 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/confirm.php on line 7
+[23-Apr-2015 10:56:21 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or T_DOLLAR_OPEN_CURLY_BRACES or T_CURLY_OPEN in /home/demoserv/public_html/ClassGod/contractor.php on line 28
+[24-Apr-2015 05:51:51 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/addjob.php on line 62
+[24-Apr-2015 05:51:53 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/addjob.php on line 62
+[25-Apr-2015 05:02:50 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/skills.php on line 102
+[25-Apr-2015 05:19:52 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/skills.php on line 69
+[25-Apr-2015 05:21:09 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/skills.php on line 69
+[25-Apr-2015 08:19:41 UTC] PHP Fatal error:  Call to a member function redirect() on a non-object in /home/demoserv/public_html/ClassGod/searchtutor.php on line 4
+[25-Apr-2015 08:19:43 UTC] PHP Fatal error:  Call to a member function redirect() on a non-object in /home/demoserv/public_html/ClassGod/searchtutor.php on line 4
+[27-Apr-2015 06:46:15 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/lib/module.php on line 137
+[27-Apr-2015 08:52:34 UTC] PHP Fatal error:  Call to undefined function chk_gtr2() in /home/demoserv/public_html/ClassGod/lib/module.php on line 147
+[28-Apr-2015 05:29:46 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/search_jobs.php on line 288
+[28-Apr-2015 05:29:48 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/search_jobs.php on line 288
+[28-Apr-2015 05:29:49 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/search_jobs.php on line 288
+[28-Apr-2015 05:29:50 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/search_jobs.php on line 288
+[28-Apr-2015 09:26:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/security.php on line 1
+[28-Apr-2015 09:26:41 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/security.php on line 1
+[29-Apr-2015 05:28:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 174
+[29-Apr-2015 05:28:26 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 174
+[29-Apr-2015 05:28:50 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 174
+[29-Apr-2015 05:28:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 174
+[29-Apr-2015 10:07:38 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/addjob.php on line 271
+[01-May-2015 10:03:21 Asia/Calcutta] PHP Fatal error:  Function name must be a string in /home/demoserv/public_html/ClassGod/jobpreview.php on line 136
+[01-May-2015 10:03:24 Asia/Calcutta] PHP Fatal error:  Function name must be a string in /home/demoserv/public_html/ClassGod/jobpreview.php on line 136
+[01-May-2015 12:42:22 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/includes/footer.inc.php on line 38
+[01-May-2015 13:24:23 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/includes/footer.inc.php on line 38
+[06-May-2015 13:18:51 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/confirm.php on line 9
+[06-May-2015 13:18:52 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/confirm.php on line 9
+[06-May-2015 12:38:57 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/searchtutor.php on line 217
+[06-May-2015 12:59:30 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/contractor.php on line 51
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: sk_id in /home/demoserv/public_html/ClassGod/search_jobs.php on line 66
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: btnGeSearch in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 2
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: clg_usertype in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 53
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: clg_userid in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 53
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: clg_usertype in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 56
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: clg_userid in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 72
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: SearchType in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 109
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: SearchType in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 110
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbSkills in /home/demoserv/public_html/ClassGod/search_jobs.php on line 76
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: arrSkCateg in /home/demoserv/public_html/ClassGod/search_jobs.php on line 81
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: btnSearch in /home/demoserv/public_html/ClassGod/search_jobs.php on line 99
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbLeftTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 194
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbLeftTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 195
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbLeftTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 196
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbPostTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 203
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbPostTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 204
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbPostTime in /home/demoserv/public_html/ClassGod/search_jobs.php on line 205
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: strCur in /home/demoserv/public_html/ClassGod/search_jobs.php on line 234
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: date2 in /home/demoserv/public_html/ClassGod/lib/module.php on line 137
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: date1 in /home/demoserv/public_html/ClassGod/lib/module.php on line 137
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: strCur in /home/demoserv/public_html/ClassGod/search_jobs.php on line 234
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: date2 in /home/demoserv/public_html/ClassGod/lib/module.php on line 137
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: date1 in /home/demoserv/public_html/ClassGod/lib/module.php on line 137
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 245
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 165
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: pageOff in /home/demoserv/public_html/ClassGod/lib/Pagination.php on line 168
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 313
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 314
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined index: cmbSubCategory in /home/demoserv/public_html/ClassGod/search_jobs.php on line 319
+[07-May-2015 12:41:38 Asia/Calcutta] PHP Notice:  Undefined variable: intSkill in /home/demoserv/public_html/ClassGod/search_jobs.php on line 319
+[07-May-2015 09:13:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 31
+[07-May-2015 09:13:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 31
+[07-May-2015 09:13:23 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/tutors_profile.php on line 131
+[08-May-2015 05:32:37 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/job_detail.php on line 132
+[08-May-2015 05:46:16 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/job_detail.php on line 165
+[08-May-2015 11:42:24 Asia/Calcutta] PHP Fatal error:  Call to undefined method Module::insert() in /home/demoserv/public_html/ClassGod/job_detail.php on line 27
+[08-May-2015 07:00:05 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 94
+[08-May-2015 07:00:09 UTC] PHP Fatal error:  Call to a member function getAll() on a non-object in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 94
+[08-May-2015 09:50:51 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/demoserv/public_html/ClassGod/job-history.php on line 137
+[08-May-2015 09:50:53 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/demoserv/public_html/ClassGod/job-history.php on line 137
+[08-May-2015 09:50:54 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/demoserv/public_html/ClassGod/job-history.php on line 137
+[08-May-2015 10:30:32 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/messages_detail.php on line 144
+[08-May-2015 10:35:42 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/messages_detail.php on line 127
+[08-May-2015 10:53:22 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/messages_detail.php on line 177
+[09-May-2015 04:00:33 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 266
+[09-May-2015 04:12:26 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 284
+[09-May-2015 04:12:27 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 284
+[09-May-2015 04:12:29 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 284
+[09-May-2015 04:12:30 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 284
+[09-May-2015 09:40:40 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/demoserv/public_html/ClassGod/viewbidders.php on line 270
+[11-May-2015 04:56:01 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/thanksbid.php on line 1
+[11-May-2015 04:56:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/thanksbid.php on line 1
+[11-May-2015 04:56:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/thanksbid.php on line 1
+[11-May-2015 04:57:05 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/thanksbid.php on line 1
+[11-May-2015 07:51:27 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 290
+[11-May-2015 15:25:06 Asia/Calcutta] PHP Notice:  Undefined index: btnBidPost in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 20
+[11-May-2015 15:25:06 Asia/Calcutta] PHP Notice:  Undefined index: btnWithdraw in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 56
+[11-May-2015 15:25:06 Asia/Calcutta] PHP Fatal error:  Call to undefined method PCGData::setTableDetaiils() in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 101
+[12-May-2015 05:44:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/tutordashboard.php on line 1
+[12-May-2015 06:58:55 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 60
+[12-May-2015 06:58:58 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or T_DOLLAR_OPEN_CURLY_BRACES or T_CURLY_OPEN in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 96
+[12-May-2015 08:56:19 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 427
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: btnBidPost in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 20
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: btnWithdraw in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 56
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: hdn_posterid in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 96
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: post_id in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 103
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: post_id in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 104
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 104
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined offset: 2 in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 108
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: post_id in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 137
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: hdn_posterid in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 139
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 150
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: hdn_posttitle in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 151
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 153
+[12-May-2015 14:29:19 Asia/Calcutta] PHP Notice:  Undefined index: hdn_posttitle in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 154
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: btnBidPost in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 20
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: btnWithdraw in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 56
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: btnAddMilestone in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 87
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: btnGeSearch in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 2
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 100
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 108
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 109
+[12-May-2015 15:04:13 Asia/Calcutta] PHP Notice:  Undefined index: search in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 112
+[12-May-2015 09:56:18 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 427
+[12-May-2015 09:59:23 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 427
+[12-May-2015 09:59:23 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 439
+[12-May-2015 10:14:21 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or '$' in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 96
+[12-May-2015 10:14:22 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 320
+[12-May-2015 10:24:17 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 429
+[12-May-2015 10:24:24 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 429
+[12-May-2015 10:24:27 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 429
+[12-May-2015 12:24:35 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 492
+[12-May-2015 12:33:27 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 321
+[12-May-2015 13:06:29 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 248
+[12-May-2015 13:06:30 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 248
+[13-May-2015 04:58:26 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 1
+[13-May-2015 06:15:27 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/ajax.php on line 1
+[13-May-2015 07:21:31 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 326
+[13-May-2015 08:54:04 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/detail-bidded-test.php on line 54
+[13-May-2015 08:54:32 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/demoserv/public_html/ClassGod/detail-bidded-test.php on line 494
+[13-May-2015 08:54:32 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded-test.php on line 515
+[18-May-2015 06:07:30 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/lib/module.php on line 103
+[18-May-2015 09:42:21 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/notifications.php on line 1
+[19-May-2015 16:03:54 Asia/Calcutta] PHP Fatal error:  Cannot use string offset as an array in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 3
+[19-May-2015 16:14:22 Asia/Calcutta] PHP Fatal error:  Cannot use string offset as an array in /home/demoserv/public_html/ClassGod/includes/header_top.inc.php on line 176
+[19-May-2015 16:34:52 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/confirm.php on line 9
+[19-May-2015 16:34:55 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/confirm.php on line 9
+[19-May-2015 16:35:24 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/demoserv/public_html/ClassGod/confirm.php on line 9
+[19-May-2015 12:02:46 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 934
+[19-May-2015 12:02:49 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 934
+[19-May-2015 12:30:31 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 40
+[19-May-2015 12:45:18 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/messages_detail.php on line 55
+[20-May-2015 12:53:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/messages_detail.php on line 1
+[20-May-2015 12:53:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/demoserv/public_html/ClassGod/messages_detail.php on line 1
+[23-May-2015 10:45:39 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/lib/module.php on line 300
+[25-May-2015 05:32:48 UTC] PHP Fatal error:  Call to a member function redirect() on a non-object in /home/demoserv/public_html/ClassGod/tutordashboard.php on line 5
+[06-Jun-2015 11:47:29 UTC] PHP Parse error:  syntax error, unexpected $end, expecting ',' or ';' in /home/demoserv/public_html/ClassGod/searchtutor.php on line 258
+[01-Jul-2015 11:26:25 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 970
+[01-Jul-2015 11:31:43 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 31
+[01-Jul-2015 11:31:45 UTC] PHP Parse error:  syntax error, unexpected $end, expecting T_VARIABLE or T_DOLLAR_OPEN_CURLY_BRACES or T_CURLY_OPEN in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 315
+[01-Jul-2015 11:32:06 UTC] PHP Warning:  move_uploaded_file(uploads/Blog post-23-Apr-15.docx) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in /home/demoserv/public_html/ClassGod/upload.php on line 6
+[01-Jul-2015 11:32:06 UTC] PHP Warning:  move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: Unable to move '/tmp/phpdvL6zA' to 'uploads/Blog post-23-Apr-15.docx' in /home/demoserv/public_html/ClassGod/upload.php on line 6
+[06-Jul-2015 05:31:02 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 670
+[06-Jul-2015 05:31:04 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 1016
+[06-Jul-2015 05:31:44 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 999
+[26-Sep-2015 06:40:38 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 560
+[26-Sep-2015 06:49:01 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 240
+[26-Sep-2015 07:39:00 UTC] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 71
+[26-Sep-2015 08:49:37 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:49:41 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:49:44 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:50:31 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:50:34 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:50:34 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 922
+[26-Sep-2015 08:53:58 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 912
+[26-Sep-2015 08:54:02 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/buyer-milestone.php on line 912
+[07-Jan-2016 05:39:45 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 787
+[07-Jan-2016 05:39:47 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 787
+[07-Jan-2016 05:40:05 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/demoserv/public_html/ClassGod/detail-bidded.php on line 787
+[03-Feb-2016 06:35:01 UTC] PHP Parse error:  syntax error, unexpected $end in /home/demoserv/public_html/ClassGod/job_detail.php on line 451

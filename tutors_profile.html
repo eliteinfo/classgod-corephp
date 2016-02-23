@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Class God</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/expand.js"></script>
+    <script type="text/javascript">
+$(document).ready(function(){
+$("ul.menu li:has(ul)").addClass("parent");
+$(".menu_link").click(function(){
+$(this).next("ul").slideToggle(400);
+return false;
+});
+$(".menu_link").toggle(function(){
+$(this).addClass("active");
+}, function () {
+$(this).removeClass("active");
+});
+});
+</script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".custom-select").each(function(){
+            $(this).wrap("<span class='select-wrapper'></span>");
+            $(this).after("<span class='holder'></span>");
+        });
+        $(".custom-select").change(function(){
+            var selectedOption = $(this).find(":selected").text();
+            $(this).next(".holder").text(selectedOption);
+        }).trigger('change');
+    })
+</script>
+    <script>
+        $(document).ready(function () {
+        $("#faqs div.expand_title").toggler();
+        });
+    </script>
+     <script type="text/javascript">
+	$(document).ready(function(){
+	$(".category_top").click(function(){
+	$(".category_box").slideToggle(400);
+	return false;
+	});
+	});
+	</script>
+    </head>
+    <body>
+<!----Top Start---->
+<div class="top"> 
+      <!--Rop Nav start-->
+      <div class="top_nav">
+    <div class="wrapper">
+          <div class="mainmenu"> <a class="menu_link" href="#">Menu</a>
+        <ul class="menu" id="menu">
+              <li><a href="#">Post an assignment</a></li>
+              <li><a href="#">Find a Tutor</a>
+              	<ul>
+              <li><a href="#">Sub Menu1</a></li>
+              <li><a href="#">Sub Menu1</a></li>
+            </ul>
+              </li>
+              <li><a href="#">Find an assignment</a></li>
+              <li><a href="#">How it Works</a></li>
+            </ul>
+        <script type ="text/javascript">
+			var menu=new menu.dd("menu");
+			menu.init("menu","menuhover");
+			</script> 
+      </div>
+          <div class="top_login">
+        <ul>
+              <li><a href="#">login</a></li>
+              <li><a href="#">join now</a></li>
+            </ul>
+      </div>
+        </div>
+  </div>
+      <!--Top Nav end--> 
+      <!-----Top logo Start---->
+      <div class="top_bg">
+    <div class="wrapper">
+          <div class="logo"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+          <div class="top_right">
+        <div class="dropdown_box">
+              <select onchange="" name="Browse" class="custom-select" >
+            <option value="Browse">Browse</option>
+            <option value="Browse2">Browse1</option>
+            <option value="Browse3">Browse2</option>
+          </select>
+            </div>
+        <div class="inputgroup">
+              <div class="white_round">
+            <div class="dropdown_box2">
+                  <select onchange="" name="Tutors" class="custom-select" >
+                <option value="Tutors">Tutors</option>
+                <option value="Tutors2">Tutors1</option>
+                <option value="Tutors3">Tutors2</option>
+              </select>
+                </div>
+            <input type="search"  placeholder="" >
+          </div>
+              <input type="submit" />
+            </div>
+      </div>
+        </div>
+  </div>
+      <!----Top logo End----> 
+    </div>
+<!----Top End----> 
+<!----header Start---->
+<div class="header">
+      <ul class="slides">
+    <li>
+          <div class="header_main">
+        <div class="header_img"><img src="images/about_inner.jpg" alt="" /></div>
+        <div class="header_textbox">
+              <div class="wrapper">
+            <h1>Our Tutors</h1>
+            <div class="button_box2"> <a href="#">Post an assignment</a> </div>
+          </div>
+            </div>
+      </div>
+        </li>
+  </ul>
+    </div>
+<!------Header End----> 
+<!----mid Start---->
+<div class="mid">
+      <div class="wrapper"> 
+    <!----content Start---->
+    <div class="content_part"> 
+          <!----Sidebar Start---->
+          <div class="sidebar">
+           <a class="category_top" href="#">Category</a>
+          <div class="category_box">
+        <div class="sidebar_box">
+        <div class="option_button">
+         <a href="#" class="option_button1">Post An Assignment</a>
+              <div class="option_text">or</div>
+              <a href="#" class="option_button2">Contact</a>
+              <div class="difference_text">What is the difference <a href="#">?</a></div>
+            </div>
+            </div>
+        <div class="sidebar_box">
+              <ul class="short_profile">
+            <li>
+                  <div class="round_bg"><span><img src="images/icon16.png" alt="" /></span></div>
+                  <div class="amount_txt"><span>5.00</span></div>
+                  <div class="small_txt"><span><img src="images/icon15.png" alt="" /></span></div>
+                </li>
+                 <li>
+                  <div class="round_bg"><span><img src="images/icon17.png" alt="" /></span></div>
+                  <div class="amount_txt"><span>$99.66</span></div>
+                  <div class="small_txt"><span>Hourly Rate</span></div>
+                </li>
+                 <li>
+                  <div class="round_bg"><span><img src="images/icon18.png" alt="" /></span></div>
+                  <div class="amount_txt"><span>15</span></div>
+                  <div class="small_txt"><span>Total Job Worked</span></div>
+                </li>
+                <li>
+                  <div class="round_bg"><span><img src="images/icon19.png" alt="" /></span></div>
+                  <div class="amount_txt"><span>2,339</span></div>
+                  <div class="small_txt"><span>Total Hours</span></div>
+                </li>
+                <li>
+                  <div class="round_bg"><span><img src="images/icon20.png" alt="" /></span></div>
+                  <div class="amount_txt"><span>Croatia</span></div>
+                  <div class="small_txt"><span>Opatija</span></div>
+                </li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Groups</span></h2>
+              <ul>
+            <li><a href="#">Group A</a></li>
+            <li><a href="#">Group B</a></li>
+            <li><a href="#">Group C</a></li>
+            <li><a href="#">Group D</a></li>
+          </ul>
+            </div>
+        <div class="sidebar_box">
+              <h2><span>Search for other tutors</span></h2>
+              <div class="search_tutors">
+            <form>
+                  <input type="search"  placeholder="" >
+                  <input type="submit" />
+                </form>
+          </div>
+            </div>
+            </div>
+      </div>
+          <!----Sidebar end---->
+          <div class="blog_part">
+        <div class="blog_found back_link"><a href="#">Back to search results</a></div>
+        <div class="blog_box">
+              <div class="tutors_people"><img src="images/people_1.jpg" alt="" /></div>
+              <div class="tutors_right">
+            <h2><a href="#">Robert B.</a></h2>
+            <div class="blog_tag"><a href="#">XML</a><a href="#">SQL</a><a href="#">C#</a><a href="#">Javascript</a><a href="#">LINQ</a></div>
+          </div>
+              <div class="profile_box">
+            <h3>Reviews</h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et dui blandit lectus scelerisque accumsan sit amet ac quam. Fusce id consectetur enim. Sed eget nulla velit. Maecenas quis orci lorem. Donec ut justo dui, id dapibus mauris. Aenean pharetra tristique dui ac mollis. Donec accumsan dignissim fringilla. Nam enim dolor, mattis eu accumsan vitae, scelerisque et sem.</p>
+            <ul>
+                  <li><a href="#">Sed mattis, est vel sollicitudin suscipit, justo quam sagittis enim</a></li>
+                  <li><a href="#">Vel accumsan elit sapien et sapien.</a></li>
+                  <li><a href="#">Donec gravida gravida nunc vitae fringilla.</a></li>
+                  <li><a href="#">Vivamus adipiscing molestie egestas.</a></li>
+                  <li><a href="#">Ut vehicula pharetra tortor ut hendrerit.</a></li>
+                </ul>
+                 <p><a href="#">more..</a></p>
+          </div>
+              <!----Skills Start---->
+              <div class="profile_box">
+            <h3>Skills</h3>
+            <ul class="skills">
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                  <li>Suspendisse et dui blandit lectus scelerisque accumsan</li>
+                  <li>Donec accumsan orci eget ante mattis vitae venenatis dui imperdiet</li>
+                  <li>Proin urna leo, posuere eget venenatis vel, gravida ut justo.</li>
+                  <li>Etiam laoreet dui et mauris imperdiet sed sodales metus hendrerit.</li>
+                </ul>
+          </div>
+              <!----Skills End----> 
+              <!----rating Start---->
+              <div class="profile_box">
+            <h3>Work Examples/Credentials</h3>
+            <ul class="work_rating">
+                  <li>
+                <ul>
+                      <li>
+                    <h4>Front-end developer test project</h4>
+                    Mar 2013 - Apr 2013<br />
+                    Fixed Price $150<br />
+                  </li>
+                      <li>"Highly recommended."</li>
+                      <li>5.00 <span class="rating"><img src="images/icon15.png" alt="" /></span></li>
+                    </ul>
+              </li>
+                  <li>
+                <ul>
+                      <li>
+                    <h4>WebApp for Tablets needed</h4>
+                    Mar 2013 - Apr 2013<br />
+                    Fixed Price $150<br />
+                  </li>
+                      <li>"I am glad i choose Sergey. He has a nice attitude to work with and know what service is."</li>
+                      <li>5.00 <span class="rating"><img src="images/icon15.png" alt="" /></span></li>
+                    </ul>
+              </li>
+                  <li>
+                <ul>
+                      <li>
+                    <h4>Expert WP buddypress PO files</h4>
+                    Mar 2013 - Apr 2013<br />
+                    Fixed Price $150<br />
+                  </li>
+                      <li>"Fast, experienced, and always available .Sergey was awesome"</li>
+                      <li>5.00 <span class="rating"><img src="images/icon15.png" alt="" /></span></li>
+                    </ul>
+              </li>
+                  <li>
+                <ul>
+                      <li>
+                    <h4>Search module modification</h4>
+                    Mar 2013 - Apr 2013<br />
+                    Fixed Price $150<br />
+                  </li>
+                      <li>No feedback given</li>
+                      <li>--</li>
+                    </ul>
+              </li>
+                </ul>
+          </div>
+              <!----rating End---->
+              <div class="review_account">Robert B. has added detail work examples/credentials. <a href="#">Create an account to review them.</a></div>
+            </div>
+      </div>
+        </div>
+    <!----content End----> 
+  </div>
+    </div>
+<!----mid End----> 
+<!----Footer Start---->
+<div class="footer_bg">
+      <div class="wrapper">
+    <div class="footer"> 
+          <!----Footer Box Start---->
+          <div class="footer_box">
+        <h3>Navigate</h3>
+        <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">Join Now</a></li>
+              <li><a href="#">Post an Assignment</a></li>
+              <li><a href="#">Find a Tutor</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Company Info</h3>
+        <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">How it Works</a></li>
+              <li><a href="#">Directory</a></li>
+              <li><a href="#">IP Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <h3>Resources</h3>
+        <ul>
+              <li><a href="#">Help & FAQ</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Answers</a></li>
+              <li><a href="#">Ask A Question</a></li>
+            </ul>
+      </div>
+          <div class="footer_box">
+        <div class="social_right"> <a class="tw_icon" href="#"></a><a class="fb_icon" href="#"></a> <a class="youtube_icon" href="#"></a></div>
+        <div class="copy_rights">2015 ClassGod &copy;. All rights reserved</div>
+      </div>
+        </div>
+  </div>
+    </div>
+</body>
+</html>
